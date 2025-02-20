@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Security Solution System</title>
+    <link rel="shortcut icon" href="images/logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top bg-opacity-75">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#header"><img id="img" src="/images/cover.png" alt="We Security Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#plans">Price Plan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonial">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="header">
+        <div class="header-text text-white">
+            <h4>Security Cameras</h4>
+            <h1 class="display-3 fw-bold">Fix, Repair, or Setup Your Security Cameras!</h1>
+        </div>
+    </header>
+
+    <!-- About section -->
+    <section class="py-5" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pt-5">
+                    <img class="w-100" src="./images/abt.jpg" alt="CAMERA">
+                </div><!-- column close -->
+                <div class="col-md-8">
+                    <h5 class="text-secondary">About us</h5>
+                    <h3 class="display-5 fw-bold">Our experienced technicians provide reliable repair services to ensure your security cameras are functioning optimally.</h3>
+                    <p class="lead">We offer comprehensive setup services, making sure your security camera system is installed correctly and efficiently.</p>
+                    <p>Purchase top-of-the-line security cameras from us, featuring the latest technology to keep your property safe.</p>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <div id="card" class="card d-flex justify-content-center align-items-center" style="border-radius: 5px; height: 185px; padding-top: 25px; background: linear-gradient(to top right, grey, white);">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-award fa-3x"></i>
+                                    <h5 class="card-title text-center" style="font-size: 30px; color: black;">Award winning</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="card" class="card bg-opacity-25 d-flex justify-content-center align-items-center" style="border-radius: 5px; height: 185px; padding-top: 25px; background: linear-gradient(to top right, grey, white)">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-shield-halved fa-3x"></i>
+                                    <h5 class="card-title text-center" style="font-size: 30px;color: black;">15 years of experience</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- column close -->
+            </div><!-- row close -->
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="py-5" id="services">
+        <div class="container">
+            <h5 class="text-secondary text-center">Services </h5>
+            <h3 class="display-5 fw-bold text-center mb-5">Reliable Security <br> Camera Installation</h3>
+            <div class="row">
+                <script>
+                    const images = ["images/s1.png", "images/s2.png", "images/s3.png", "images/s4.png", "images/s5.png", "images/s6.png", "images/s7.png", "images/s8.png"];
+                    const titles = ["CCTV Installation", "Camera Repair", "System Upgrade", "Security Consulting", "Remote Monitoring", "Network Setup", "Maintenance Service", "Custom Solutions"];
+                    const descriptions = ["Professional CCTV installation for your home or business.", "Expert repair services for all types of cameras.", "Upgrade your security system with the latest technology.", "Consult with us for the best security solutions.", "24/7 remote monitoring for your peace of mind.", "Reliable network setup for seamless operation.", "Regular maintenance to keep your system running smoothly.", "Tailored security solutions to meet your unique needs."];
+                    const words = ["Setup", "Configuration", "Implementation", "Deployment", "Integration", "Assembly", "Establishment", "Installation"]
+                    for (let i = 0; i < 8; i++) {
+                        document.write(`
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                                <div class="card p-3 " style="border-radius: 5px; border:1px solid;">
+                                    <img src="${images[i]}" class="mb-4 w-50" alt="${titles[i]}">
+                                    <h6 class="text-secondary">${titles[i]}</h6>
+                                    <h5 class="fw-bold">${words[i]}</h5>
+                                    <p>${descriptions[i]}</p>
+                                    <a href="" style="text-decoration: none;">
+                                        read more
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div><!-- service -->
+                            </div><!-- 1st service -->
+                        `);
+                    }
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans section -->
+    <section class="py-5" id="plans">
+        <div class="container">
+            <h5 class="text-secondary text-center">Pricing Plan </h5>
+            <h3 class="display-5 fw-bold text-center mb-5">All pricing plans of<br> security services <br></h3>
+            <div class="row pt-5">
+                <div class="col-md-4 col-sm-6 mb-3">
+                    <div class="card">
+                        <div class="card-header py-5 bg-secondary text-white card-header-opacity text-center">
+                            <h3 style="color: black;">Basic Plan</h3>
+                            <h3 style="color: black;"> <sup style="font-size:medium;">$</sup>49<sub style="font-size:small;">/mo</sub></h3>
+                            <p style="color: black;">Ideal for small apartments, homes, or individual offices seeking basic security solutions</p>
+                        </div><!-- card header -->
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <center>
+                                    <li class="list-group-item"style="font-size:larger">Up to 4 cameras</li>
+                                    <li class="list-group-item"style="font-size:larger">50% discount on installation</li>
+                                    <li class="list-group-item"style="font-size:larger">30% discount on maintainace</li>
+                                    <li class="list-group-item"style="font-size:larger">Three years warranty</li>
+                                </center>
+                            </ul>
+                        </div><!-- card body -->
+                        <div class="card-footer">
+                            <center>
+                                <button class="btn btn-primary" id="this"><h6>Upgrade to basic plan!</h6></button>
+                            </center>
+                        </div><!-- card footer -->
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-3">
+                    <div class="card">
+                        <div class="card-header py-5 bg-primary text-white blue-op text-center">
+                            <h3 style="color: black;">Premuim Plan</h3>
+                            <h3 style="color: black;"> <sup style="font-size:medium;">$</sup>99<sub style="font-size:small;">/mo</sub></h3>
+                            <p style="color: black;">Perfect for medium-sized businesses, large homes, or retail stores for comprehensive security coverage.</p>
+                        </div><!-- card header -->
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <center>
+                                    <li class="list-group-item"style="font-size:larger">Up to 10 cameras</li>
+                                    <li class="list-group-item"style="font-size:larger">70% discount on installation</li>
+                                    <li class="list-group-item"style="font-size:larger">50% discount on maintainace</li>
+                                    <li class="list-group-item"style="font-size:larger">Five years warranty</li>
+                                </center>
+                            </ul>
+                        </div><!-- card body -->
+                        <div class="card-footer">
+                            <center>
+                                <button class="btn btn-primary" id="this"><h6>Upgrade to Premuim plan!</h6></button>
+                            </center>
+                        </div><!-- card footer -->
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-3">
+                    <div class="card">
+                        <div class="card-header py-5 bg-secondary text-white card-header-opacity text-center">
+                            <h3 style="color: black;">Plus Plan</h3>
+                            <h3 style="color: black;"> <sup style="font-size:medium;">$</sup>149<sub style="font-size:small;">/mo</sub></h3>
+                            <p style="color: black;">The best chiose for a company, villa, hotel, or any big instisution</p>
+                        </div><!-- card header -->
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <center>
+                                    <li class="list-group-item"style="font-size:larger">Up to 20 cameras</li>
+                                    <li class="list-group-item"style="font-size:larger">Up to 80% discount on installation</li>
+                                    <li class="list-group-item"style="font-size:larger">70% discount on maintainace</li>
+                                    <li class="list-group-item"style="font-size:larger">six years warranty</li>
+                                </center>
+                            </ul>
+                        </div><!-- card body -->
+                        <div class="card-footer">
+                            <center>
+                                <button class="btn btn-primary" id="this"><h6>Upgrade to Plus plan!</h6></button>
+                            </center>
+                        </div><!-- card footer -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Team -->
+    <section class="py-5" id="team">
+        <div class="container">
+            <h5 class="text-secondary text-center">Our Team </h5>
+            <h3 class="display-5 fw-bold text-center mb-5">Our team is dedicated, skilled, professional,<br> and always customer-focused</h3>
+            <div class="row pt-5">
+                <div class="col-md-4 col-sm-6 mb-3">
+                    <div class="card">
+                        <div class="card-body"><!-- card body -->
+                            <center>
+                            <img id="thisimg" src="./images/guy.jpg" alt="Worker">
+                            <h3 class="mb-2">Ahmed Farag</h3>
+                            <p>Our expert installer who ensures cameras are set up efficiently in homes, hotels, or businesses</p>
+                            </center>
+                        </div>
+                        <div class="card-footer">
+                            <center>
+                                <a href="#" style="color: black;" class=" fa-2x fa-brands fa-square-facebook"></a>
+                                <a href="#" style="color: black;" class=" fa-2x fa-brands fa-square-instagram"></a>
+                                <a href="#" style="color: black;" class=" fa-2x fa-brands fa-square-twitter"></a>
+                                <a href="#" style="color: black;" class=" fa-2x fa-brands fa-linkedin"></a>
+                            </center>
+                        </div><!-- card footer -->
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-3">
+                    <div class="card">
+                        <div class="card-body"><!-- card body -->
+                            <center>
+                            <img id="thisimg" src="./images/guy.jpg" alt="Worker">
+                            <h3 class="mb-2">Aly Youssif</h3>
+                            <p>Our skilled network engineer links camera systems seamlessly for optimal performance</p>
+                            </center>
+                        </div>
+                        <div class="card-footer">
+                            <center>
+                                <a href="#" style="color: black;" class=" fa-2x fa-brands fa-square-facebook"></a>
+                                <a href="#" style="color: black;" class=" fa-2x fa-brands fa-square-instagram"></a>
+                                <a href="#" style="color: black;" class=" fa-2x fa-brands fa-square-twitter"></a>
+                                <a href="#" style="color: black;" class=" fa-2x fa-brands fa-linkedin"></a>
+                            </center>
+                        </div><!-- card footer -->
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-3">
+                    <div class="card">
+                        <div class="card-body"><!-- card body -->
+                            <center>
+                            <img id="thisimg" src="./images/guy.jpg" alt="Worker">
+                            <h3 class="mb-2">Omar Samy</h3>
+                            <p>Our dedicated manager oversees operations, ensuring top-quality security solutions for our clients.</p>
+                            </center>
+                        </div>
+                        <div class="card-footer">
+                            <center>
+                                <a href="#" style="color: black;" class=" fa-2x fa-brands fa-square-facebook"></a>
+                                <a href="#" style="color: black;" class=" fa-2x fa-brands fa-square-instagram"></a>
+                                <a href="#" style="color: black;" class=" fa-2x fa-brands fa-square-twitter"></a>
+                                <a href="#" style="color: black;" class=" fa-2x fa-brands fa-linkedin"></a>
+                            </center>
+                        </div><!-- card footer -->
+                    </div>
+                </div>
+                </div>
+                </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="py-5" id="testimonial">
+        <div class="container">
+            <h5 class="text-secondary text-center">Testimonial </h5>
+            <h3 class="display-5 fw-bold text-center mb-5">People's opinion about us.</h3>
+            <div class="row pt-5">
+                <div class="col-md-4 col-sm-6 mb-3">
+                    <div class="card">
+                        <div class="card-body bg-primary bg-opacity-10 pt-4"><!-- card body -->
+                            <center>
+                                <i class="fa-solid fa-user pb-3 fa-4x"></i>
+                            <h3 class="mb-3">Mazen Fekry</h3>
+                            <p>From the initial consultation to the final setup, the entire process was handled professionally. Our cameras are now working flawlessly.</p>
+                            </center>
+                        </div>
+                    </div>
+                </div><!-- customer 1 -->
+                <div class="col-md-4 col-sm-6 mb-3">
+                    <div class="card">
+                        <div class="card-body bg-primary bg-opacity-10 pt-4"><!-- card body -->
+                            <center>
+                                <i class="fa-solid fa-user pb-3 fa-4x" ></i>
+                            <h3 class="mb-3">Mohamed Mahmoud</h3>
+                            <p>The network engineer was incredibly skilled and ensured everything was linked seamlessly. Excellent job!</p>
+                            </center>
+                        </div>
+                    </div>
+                </div><!-- cutomer 2 -->
+                <div class="col-md-4 col-sm-6 mb-3">
+                    <div class="card">
+                        <div class="card-body bg-primary bg-opacity-10 pt-4"><!-- card body -->
+                            <center>
+                            <i class="fa-solid fa-user pb-3 fa-4x mx-auto"></i>
+                            <h3 class="mb-3">Marwan Bassem</h3>
+                            <p>Your team provided outstanding service. The installation was smooth, and the security system works perfectly. Highly recommend!</p>
+                            </center>
+                        </div>
+                    </div>
+                </div><!-- customer 3 -->
+                </div>
+                </div>
+    </section>
+
+    <!-- blog -->
+    <section class="py-5" id="blog">
+        <div class="container">
+            <h5 class="text-secondary text-center">Blog Post </h5>
+            <h3 class="display-5 fw-bold text-center mb-5">Latest articles from <br>our blog post </h3>
+            <div class="row pt-5">
+                <div class="col-md-6 col-sm-12 mb-3">
+                    <div class="card">
+                        <div class="card-body bg-secondary bg-opacity-10 pt-4"><!-- card body -->
+                            <center>
+                                <i class="fa-solid fa-user pb-3 fa-4x"></i>
+                            <h3 class="mb-3">Mazen Fekry</h3>
+                            <p>From the initial consultation to the final setup, the entire process was handled professionally. Our cameras are now working flawlessly.</p>
+                        </div>
+                    </center>
+                    <center>
+                        <div class="card-footer">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, alias.
+                        </div>
+                    </center>
+                    </div>
+                </div><!-- first -->
+                <div class="col-md-6 col-sm-12 mb-3">
+                    <div class="card">
+                        <div class="card-body bg-secondary bg-opacity-10 pt-4"><!-- card body -->
+                            <center>
+                                <i class="fa-solid fa-user pb-3 fa-4x" ></i>
+                            <h3 class="mb-3">Mohamed Mahmoud</h3>
+                            <p>The network engineer was incredibly skilled and ensured everything was linked seamlessly. Excellent job!</p>
+                            </center>
+                        </div>
+                        <center>
+                            <div class="card-footer">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, alias.
+                            </div>
+                        </center>
+                    </div>
+                </div><!-- first 2 -->
+                </div>
+                </div>
+    </section>
+<!-- contact -->
+    <section class="py-5" id="contact">
+        <div class="container">
+            <h5 class="text-secondary text-center">Contact us</h5>
+            <h3 class="display-5 fw-bold text-center mb-5">Write Your <br> message to us </h3>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <form action="" id="registration-form">
+                        <div class="input-group mb-3 pb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-regular fa-user"></i></span>
+                            <input type="text" name="name" id="name" class="form-control form-control-lg" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-3 pb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-regular fa-envelope"></i></span>
+                            <input type="email" name="email" id="email"  class="form-control form-control-lg" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-3 pb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-regular fa-pen-to-square"></i></span>
+                            <textarea type="text" name="message" id="message" class="form-control form-control-lg" placeholder="Message" aria-label="message" aria-describedby="basic-addon1"></textarea>
+                        </div>
+                        <div class="input-group mb-3">
+                        <button type="submit" class="btn btn-secondary">Submit</button>                       
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <img class="w-100" src="./images/body.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- footer -->
+<section>
+<footer style="padding-top: 10px;" class="bg-dark text-white mt-5">
+    <div class="container">
+    <div class="row">
+        <div class="col">
+        <p class="h5">Call Us: 123-123-123</p>
+        <p>Mon - Fri 8:00a-5:00p</p>
+        <p>&copy; All Rights Reserved 2024</p>
+        </div>
+        <div class="col">
+        <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Security Cameras</a></li>
+            <li><a href="#" class="text-white">Access Control</a></li>
+            <li><a href="#" class="text-white">Locations</a></li>
+            <li><a href="#" class="text-white">Links</a></li>
+        </ul>
+        </div>
+        <div class="col">
+        <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Security Cameras Installation</a></li>
+            <li><a href="#" class="text-white">Access Control Installation</a></li>
+            <li><a href="#" class="text-white">Oakland</a></li>
+            <li><a href="#" class="text-white">Contact</a></li>
+        </ul>
+        </div>
+        <div class="col">
+        <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Video Monitoring Services</a></li>
+            <li><a href="#" class="text-white">Credentials and Readers</a></li>
+            <li><a href="#" class="text-white">San Jose</a></li>
+            <li><a href="#" class="text-white">About</a></li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+</section>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

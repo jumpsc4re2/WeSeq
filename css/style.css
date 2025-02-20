@@ -1,0 +1,50 @@
+#img{
+    height: 50px;
+    width: 250px;
+}
+header{
+    min-height: 100vh;
+    background:url(../images/bodyp.jpg);
+    background-position: center;
+    background-position: cover;
+}
+.header-text{
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+/* background-color: rgba(128, 128, 128, 0.5); */
+
+#about h5{
+letter-spacing: 1px;
+}
+#card {
+    border-radius:5px;
+    text-align: center;
+    
+}
+
+.bg-opacity-50 {
+    opacity: 0.5;
+}
+.card-header-opacity{
+    opacity: 0.8;
+    background: linear-gradient(to top right, white, grey);
+}
+.blue-op{
+    background: linear-gradient(to top right, blue, grey);
+
+}
+#thisimg{
+    width:200px ;
+    width: 300px;
+}
+#thisimg2{
+    width:300px ;
+    width: 300px;
+}
