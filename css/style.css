@@ -2,6 +2,9 @@
     height: 50px;
     width: 250px;
 }
+h3{
+    color: white;
+}
 header{
     min-height: 100vh;
     background:url(../images/bodyp.jpg);
