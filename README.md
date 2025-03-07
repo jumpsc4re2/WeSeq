@@ -1,2 +1,2 @@
 # WeSeq
-we security cameras shop
+we security cameras website
